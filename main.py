@@ -1,6 +1,3 @@
-word = input("Введіть слово: ")
+text = input("Введіть рядок: ")
 
-if word == word[::-1]:
-    print("Це паліндром")
-else:
-    print("Це не паліндром")
+print(text.replace(" ", "_"))
