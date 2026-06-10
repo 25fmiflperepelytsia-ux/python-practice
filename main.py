@@ -1,5 +1,5 @@
-surname = input("Введіть прізвище: ")
-name = input("Введіть ім'я: ")
-patronymic = input("Введіть по батькові: ")
+sentence = input("Введіть речення: ")
 
-print(surname, name[0] + "." + patronymic[0] + ".", sep=" ")
+words = sentence.split()
+
+print("Кількість слів:", len(words))
