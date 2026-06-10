@@ -1,6 +1,5 @@
-a = 5
-b = 7
+text = input("Введіть рядок: ")
 
-sum = a + b
+count = text.count(" ")
 
-print("Сума чисел =", sum)
+print("Кількість пробілів:", count)
