@@ -1,5 +1,3 @@
-sentence = input("Введіть речення: ")
+text = input("Введіть рядок: ")
 
-words = sentence.split()
-
-print("Кількість слів:", len(words))
+print(text[::-1])
